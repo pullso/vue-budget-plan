@@ -1,12 +1,12 @@
 /* eslint-disable */
 export default {
-  install(Vue, options) {
+  install(Vue) {
     Vue.prototype.$message = function (html) {
       M.toast({ html });
     };
 
     Vue.prototype.$error = function (html) {
-      M.Toast({ html: `[Ошибка]: ${html}` });
+      M.toast({ html: `[Ошибка]: ${html}`,  classes: 'red' });
     };
   },
 };
