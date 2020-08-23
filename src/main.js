@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Vuelidate from 'vuelidate/src';
+import Vuelidate from 'vuelidate';
 import dateFilter from '@/filters/date.filter';
 import currencyFilter from '@/filters/currency.filter';
 import Loader from '@/components/app/Loader.vue';

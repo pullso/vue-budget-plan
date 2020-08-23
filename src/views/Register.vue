@@ -47,7 +47,7 @@
             class="helper-text invalid"
             v-else-if="$v.password.$dirty && !$v.password.minLength"
         >
-          Минимальная длина пароля - 6 символов.
+          Минимальная длина пароля - {{ $v.password.$params.minLength.min }} символов.
           Сейчас длина пароля - {{ password.length }}
         </small>
       </div>
