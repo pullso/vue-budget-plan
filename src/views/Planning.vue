@@ -59,7 +59,6 @@ export default {
         ...cat, progressPercent, progressColor, spend, tooltip,
       };
     });
-    console.log(this.$options, ':records, categories');
     this.loading = false;
   },
   computed: {
