@@ -19,19 +19,19 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Home'),
   },
   {
     path: '/categories',
     name: 'categories',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Categories'),
   },
   {
     path: '/detail',
     name: 'detail',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Detail'),
   },
   {
@@ -43,19 +43,19 @@ const routes = [
   {
     path: '/planning',
     name: 'planning',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Planning'),
   },
   {
     path: '/record',
     name: 'record',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Record'),
   },
   {
     path: '/profile',
     name: 'profile',
-    meta: { layout: 'main' },
+    meta: { layout: 'main', auth: true },
     component: () => import('@/views/Profile'),
   },
 
