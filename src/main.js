@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Vuelidate from 'vuelidate';
 import dateFilter from '@/filters/date.filter';
 import currencyFilter from '@/filters/currency.filter';
+import Paginate from 'vuejs-paginate';
 import Loader from '@/components/app/Loader.vue';
 import messagePlugins from '@/utils/message.plugin';
 import firebase from 'firebase/app';
@@ -22,6 +23,7 @@ Vue.directive('tooltip', tooltipDirective);
 Vue.use(Vuelidate);
 Vue.use(messagePlugins);
 Vue.component('Loader', Loader);
+Vue.component('Paginate', Paginate);
 
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
