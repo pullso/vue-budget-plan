@@ -1,6 +1,6 @@
 <template>
   <div class="col s12 m6 l8">
-    <div class="card deep-purple darken-3 bill-card">
+    <div class="card teal lighten-2 bill-card">
       <div class="card-content white-text">
         <div class="card-header">
           <span class="card-title">Курс валют</span>

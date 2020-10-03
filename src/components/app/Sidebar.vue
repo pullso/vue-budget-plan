@@ -8,7 +8,7 @@
       :to="link.url"
       :exact="link.exact"
     >
-      <a href="#" class="waves-effect waves-purple pointer">{{ link.title | localize }}</a>
+      <a href="#" class="waves-effect waves-teal pointer">{{ link.title | localize }}</a>
     </router-link>
   </ul>
 </template>

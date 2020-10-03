@@ -1,5 +1,5 @@
 <template>
-  <div class="grey darken-1 empty-layout">
+  <div class="teal darken-3 empty-layout">
     <router-view />
   </div>
 </template>
