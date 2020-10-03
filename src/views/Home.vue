@@ -25,6 +25,11 @@ import HomeBill from '@/components/HomeBill.vue';
 
 export default {
   name: 'Home',
+  metaInfo() {
+    return {
+      title: this.$title('Home'),
+    };
+  },
   components: { HomeCurrency, HomeBill },
   data: () => ({
     loading: true,

@@ -85,6 +85,11 @@ export default {
     password: '',
   }),
   methods: {
+    metaInfo() {
+      return {
+        title: this.$title('Login'),
+      };
+    },
     async onSubmit() {
       if (this.$v.$invalid) {
         this.$v.$touch();
